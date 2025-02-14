@@ -35,6 +35,9 @@ EDA involved exploring the sales data to answer key questions, such as:
 - Which products are top sellers?
 - What are the peak sales periods?
 
+  ![customerdetail](https://github.com/user-attachments/assets/9c51121b-f0a2-441c-9258-722cc3a0094f)
+
+
 ### Data Analysis
 
 Include some interesting code/features worked with
