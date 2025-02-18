@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.2.0/schema.json",
+  "name": "2d293186d398c7d270ae",
+  "displayName": "Customer Detail",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "visibility": "HiddenInViewMode",
+  "visualInteractions": [
+    {
+      "source": "2b35f0190ca744a117b7",
+      "target": "1fb0cf04b41977823380",
+      "type": "DataFilter"
+    },
+    {
+      "source": "2b35f0190ca744a117b7",
+      "target": "680d42240c9a7340b9ee",
+      "type": "DataFilter"
+    },
+    {
+      "source": "669ca89060020e77aeda",
+      "target": "2b35f0190ca744a117b7",
+      "type": "NoFilter"
+    },
+    {
+      "source": "669ca89060020e77aeda",
+      "target": "1fb0cf04b41977823380",
+      "type": "NoFilter"
+    },
+    {
+      "source": "669ca89060020e77aeda",
+      "target": "680d42240c9a7340b9ee",
+      "type": "NoFilter"
+    }
+  ]
+}

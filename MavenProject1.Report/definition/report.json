@@ -1,0 +1,147 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/1.2.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU06",
+      "reportVersionAtImport": "5.56",
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Custom06241803329475348.json",
+      "reportVersionAtImport": "5.56",
+      "type": "RegisteredResources"
+    }
+  },
+  "layoutOptimization": "None",
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY24SU06",
+          "path": "BaseThemes/CY24SU06.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "AdventureWorks_Logo40935418820850167.png",
+          "path": "AdventureWorks_Logo40935418820850167.png",
+          "type": "Image"
+        },
+        {
+          "name": "Custom06241803329475348.json",
+          "path": "Custom06241803329475348.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "Dashboard_Icon7478739146819566.png",
+          "path": "Dashboard_Icon7478739146819566.png",
+          "type": "Image"
+        },
+        {
+          "name": "Dashboard_Icon_Blue7434390530918209.png",
+          "path": "Dashboard_Icon_Blue7434390530918209.png",
+          "type": "Image"
+        },
+        {
+          "name": "Dashboard_Icon_Blue3467687507016992.png",
+          "path": "Dashboard_Icon_Blue3467687507016992.png",
+          "type": "Image"
+        },
+        {
+          "name": "Map_Icon8045541189065903.png",
+          "path": "Map_Icon8045541189065903.png",
+          "type": "Image"
+        },
+        {
+          "name": "Map_Icon_Blue4977562444477288.png",
+          "path": "Map_Icon_Blue4977562444477288.png",
+          "type": "Image"
+        },
+        {
+          "name": "Map_Icon_Blue061480553838083596.png",
+          "path": "Map_Icon_Blue061480553838083596.png",
+          "type": "Image"
+        },
+        {
+          "name": "Product_Icon41131199338614044.png",
+          "path": "Product_Icon41131199338614044.png",
+          "type": "Image"
+        },
+        {
+          "name": "Product_Icon_Blue10467724649211618.png",
+          "path": "Product_Icon_Blue10467724649211618.png",
+          "type": "Image"
+        },
+        {
+          "name": "Product_Icon_Blue17017220764086072.png",
+          "path": "Product_Icon_Blue17017220764086072.png",
+          "type": "Image"
+        },
+        {
+          "name": "Customer_Icon722865479208346.png",
+          "path": "Customer_Icon722865479208346.png",
+          "type": "Image"
+        },
+        {
+          "name": "Customer_Icon_Blue2720000437564216.png",
+          "path": "Customer_Icon_Blue2720000437564216.png",
+          "type": "Image"
+        },
+        {
+          "name": "Customer_Icon_Blue5731122547856691.png",
+          "path": "Customer_Icon_Blue5731122547856691.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  },
+  "slowDataSourceSettings": {
+    "isCrossHighlightingDisabled": false,
+    "isSlicerSelectionsButtonEnabled": false,
+    "isFilterSelectionsButtonEnabled": false,
+    "isFieldWellButtonEnabled": false,
+    "isApplyAllButtonEnabled": false
+  }
+}
